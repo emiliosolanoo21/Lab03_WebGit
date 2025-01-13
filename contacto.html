@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - El Bosque de los Ecos Perdidos</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>El Bosque de los Ecos Perdidos</h1>
+        <nav>
+            <a href="index.html">Inicio</a> |
+            <a href="sobre_nosotros.html">Sobre Nosotros</a> |
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Contenido del artículo -->
+    <article>
+        <h2>Contáctanos</h2>
+        <p>Si tienes alguna pregunta, comentario o sugerencia sobre El Bosque de los Ecos Perdidos, no dudes en ponerte en contacto con nosotros. Nos encantaría saber tu opinión y ayudarte en lo que necesites.</p>
+
+        <h3>Formulario de Contacto</h3>
+        <form action="enviar_mensaje.php" method="POST">
+            <label for="nombre">Tu Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <br>
+            <label for="email">Tu Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <br>
+            <label for="mensaje">Tu Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Enviar Mensaje">
+        </form>
+    </article>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 El Bosque de los Ecos Perdidos. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
